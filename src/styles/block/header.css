@@ -1,0 +1,19 @@
+.header {
+    background: #ccc;
+}
+.header {
+    &__logo {
+        background: #61dafb;
+        padding: 10px;
+        width: 50px;
+    }
+    &-logo {
+         background: #61dafb;
+         padding: 10px;
+         width: 50px;
+     }
+    &__nav {
+        background: #282c34;
+        color: #ccc;
+    }
+}
