@@ -75,11 +75,6 @@ body {
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
-
-    &:nth-child(2) {
-      opacity: 0;
-    }
-
   }
   &.is-active {
     div {
@@ -91,7 +86,7 @@ body {
 
       &:nth-child(2) {
         transform: translateX(100%);
-        opacity: 1;
+        opacity: 0;
       }
 
       &:nth-child(3) {
