@@ -1,7 +1,7 @@
 @import 'variables';
 @import 'block/footer';
 @import 'block/header';
-@import 'block/hero';
+@import 'sections/hero';
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -44,7 +44,6 @@ body {
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     transform: translateX(100%);
-    ;
     &.is-active {
       transform: translateX(0);
     }
