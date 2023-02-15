@@ -1,4 +1,4 @@
-@import 'variables';
+@import './alpina-ui/style/variables';
 @import 'block/footer';
 @import 'block/header';
 @import 'sections/hero';
@@ -9,7 +9,6 @@ body {
 .container {
   max-width: 1024px;
   margin: 0 auto;
-
 }
 
 .navbar {
