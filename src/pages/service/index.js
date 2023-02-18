@@ -9,7 +9,6 @@ import BlogCard from "@/components/BlogCard/BlogCard";
 
 const ServiceList = (props) => {
     const router = useRouter()
-    const {pid} = router.query
     console.log(props.data);
 
     const serviceData = props.data.data;
@@ -20,7 +19,7 @@ const ServiceList = (props) => {
     return <div>
 
         {serviceData.map(({id, attributes }) => (
-            <Link key={id} href={'/service/' + id}> <BlogCard name={attributes.Name}/></Link>
+            <Link key={id} href={'/service/' + attributes.slug}> <BlogCard name={attributes.Name}/></Link>
         ))}
 
     </div>
