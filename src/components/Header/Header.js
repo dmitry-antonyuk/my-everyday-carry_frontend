@@ -24,22 +24,40 @@ const navigation = [
 ]
 
 const Header = () => (
-    <div className='header'>
-        <div className='container'>
-            <div className='header__image'>
+    <div>
 
+        <div className='header'>
+            <div className='container'>
+                <div className='header__image'>
+                </div>
+                <nav className='nav'>
+                    <ul>
+                        {navigation.map(({id, title, path}) => (
+                            <li key={id}><Link href={path}>{title}</Link></li>
+                        ))}
+                    </ul>
+                </nav>
             </div>
-            <nav className='nav'>
-                <ul>
-                    {navigation.map(({id, title, path}) => (
-                        <li key={id}><Link href={path}>{title}</Link></li>
-                    ))}
-                </ul>
-            </nav>
+            <h2>
+                header
+            </h2>
         </div>
-        <h2>
-            header
-        </h2>
+        <div className='header is-active'>
+            <div className='container'>
+                <div className='header__image'>
+                </div>
+                <nav className='nav'>
+                    <ul>
+                        {navigation.map(({id, title, path}) => (
+                            <li key={id}><Link href={path}>{title}</Link></li>
+                        ))}
+                    </ul>
+                </nav>
+            </div>
+            <h2>
+                header
+            </h2>
+        </div>
     </div>
 );
 

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import Hero from '@/components/Hero/Hero';
+import Hero from '@/sections/Hero/Hero';
 
 import heroImage from './../../public/images/hero/massage.png'
 
