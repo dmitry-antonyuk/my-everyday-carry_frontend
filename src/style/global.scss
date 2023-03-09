@@ -1,0 +1,41 @@
+@import 'variables';
+@import 'block/footer';
+@import 'block/header';
+@import 'block/hero';
+@import 'block/form.scss';
+@import 'block/blog.scss';
+@import 'block/blogList.scss';
+@import 'block/blogTags.scss';
+@import 'block/delivererCard.scss';
+
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+
+}
+
+@media (max-width: 390px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
