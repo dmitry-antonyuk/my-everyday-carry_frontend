@@ -4,33 +4,33 @@ import Logo from "../Header/Logo";
 const navigationFooter = [
     {
         id: 1,
-        title: 'Overview',
+        title: 'Home',
         path: '/'
     },
     {
         id: 2,
-        title: 'Features',
-        path: '/master'
+        title: 'Products',
+        path: '/good'
     },
     {
         id: 3,
-        title: 'Pricing',
+        title: 'Blog',
         path: '/blog'
     },
-    {
-        id: 4,
-        title: 'Careers',
-        path: '/about'
-    },
+    // {
+    //     id: 4,
+    //     title: 'Careers',
+    //     path: '/about'
+    // },
+    // {
+    //     id: 5,
+    //     title: 'Help',
+    //     path: '/about'
+    // },
     {
         id: 5,
-        title: 'Help',
-        path: '/about'
-    },
-    {
-        id: 6,
-        title: 'Privacy',
-        path: '/about'
+        title: 'Contact us',
+        path: '/contact-us'
     }
 ]
 
@@ -45,7 +45,7 @@ const Footer = () => (
                 })}
             </div>
             <div className="footer__copy">
-                © 2077 Untitled UI
+                © 2023 Untitled UI
             </div>
         </div>
 

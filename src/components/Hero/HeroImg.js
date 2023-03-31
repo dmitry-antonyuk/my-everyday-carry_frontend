@@ -3,7 +3,7 @@
 const HeroImg = () => {
   return (
     <>
-        <img src='/images/hero/massage.png' alt="img" />
+        <img src='/images/hero/edc.jpeg' alt="img" />
     </>
   )
 }

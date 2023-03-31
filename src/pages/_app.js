@@ -16,6 +16,9 @@ const MyApp = ({ Component, pageProps }) => (
         </Head>
         <main>
             <Component {...pageProps} />
+
+
+            
         </main>
     </Layout>
 );

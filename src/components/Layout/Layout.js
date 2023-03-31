@@ -11,11 +11,11 @@ const Layout = ({children}) => (
     <div>
 
         <Header/>
-        <Hero/>
+        {/* <Hero/> */}
         {children}
-        <Form/>
+        {/* <Form/>
         <Blog/>
-        <DelivererCard/>
+        <DelivererCard/> */}
         <Footer/>
     </div>
 );

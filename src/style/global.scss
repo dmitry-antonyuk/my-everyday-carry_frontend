@@ -7,6 +7,7 @@
 @import 'block/blogList.scss';
 @import 'block/blogTags.scss';
 @import 'block/delivererCard.scss';
+@import 'block/product-list.scss';
 
 
 
@@ -23,6 +24,7 @@ ul {
 }
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  background: #DCDCDC;
 }
 .container {
   width: 1280px;
@@ -33,9 +35,32 @@ body {
 
 }
 
-@media (max-width: 390px) {
+.card {
+  background: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.w50 {
+width: calc(50% - 10px)
+}
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
   .container {
     padding-left: 12px;
     padding-right: 12px;
   }
+  .w50 {
+    width: 100%;
 }
+}
+

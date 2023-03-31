@@ -24,7 +24,7 @@
         transition: .3s all;
         a {
           text-decoration: none;
-          color: #475467;
+          color: black;
         }
       }
       &__burger {
@@ -37,10 +37,10 @@
       align-items: center;
         button {
           padding: 10px 18px;
-          width: 95px;
+          width: 145px;
           height: 44px;
-          background: #7F56D9;
-          border: 1px solid #7F56D9;
+          background: #6C6E60;
+          border: 1px solid #6C6E60;
           box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
           border-radius: 8px;
           color: #FFFFFF;
@@ -71,8 +71,11 @@
     }
     &__button {
         button {
-          padding: 10px 6px;
-          width: 70px;
+          padding: 10px 50px;
+          width: 0px;
+          width: 145px;
+          height: 44px;
+
         }
   }
   }
@@ -100,9 +103,9 @@
           display: block;
           left: 0;
           top: 81px;
-          background-color: white;
+          background-color: #DCDCDC;
           width: 100vw;
-          height: 350px;
+          height: 330px;
           gap: 20px;
           &.active &-item {
             background-color: green;
@@ -112,7 +115,6 @@
           margin-top: 20px;
           margin-left: 20px;
           margin-bottom: 20px;
-          font-size: 30px;
         }
       }
       &__burger {
@@ -154,7 +156,7 @@
       transition: .3s all;
       position: absolute;
       left: -100%;
-      top: 38%;
+      top: 30%;
       z-index: 10;
         button {
           padding: 10px 6px;
@@ -170,7 +172,7 @@
           max-width: 90%;
           &::before {
             content: "";
-            border-top: .1px solid #ccc;
+            // border-top: .1px solid #ccc;
             position: absolute;
             left: -20px;
             width: 100vw;
@@ -180,4 +182,8 @@
       }
     }
   }
+}
+
+.header{
+  background-color: #FFFFFF;
 }

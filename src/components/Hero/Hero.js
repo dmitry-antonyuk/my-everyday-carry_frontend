@@ -7,10 +7,10 @@ const Hero = () => (
         <div className="container hero__container">
             <div className="hero__descr">
                 <div className="hero__descr-title">
-                    Smart business credit cards
+                EDC
                 </div>
                 <div className="hero__descr-text">
-                    Untitled is a next-gen financial technology company in the process of reinventing banking.
+                EDC means Everyday Carry. It's everything you carry on the daily and it's up to you what that is. We think EDC needs to be purposeful and top quality - and most of all, to bring joy for the day.
                 </div>
                 <button>Sign Up</button>
             </div>

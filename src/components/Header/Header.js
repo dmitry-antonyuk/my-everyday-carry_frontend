@@ -10,18 +10,24 @@ const navigation = [
     {
         id: 2,
         title: 'Products',
-        path: '/master'
+        path: '/good'
     },
     {
         id: 3,
-        title: 'Resources',
+        title: 'Blog',
         path: '/blog'
     },
+    // {
+    //     id: 4,
+    //     title: 'Filter',
+    //     path: '/deliverers'
+    // },
     {
-        id: 4,
-        title: 'Filter',
-        path: '/deliverers'
+        id: 5,
+        title: 'Contact us',
+        path: '/contact-us'
     }
+
 ]
 
 
@@ -51,7 +57,7 @@ const Header = () => {
 
                     
                     <div className={`header__button ${isClicked && 'active'}`}>
-                        <button>Sign Up</button>
+                        <button>Button CTA</button>
                     </div>
                     
                 </div>
